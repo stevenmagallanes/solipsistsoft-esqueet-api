@@ -38,6 +38,7 @@ const app = express();
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
 
+
 // Let's get started.  We're going to need to initialize our database connection through mongoose:
 mongoose.Promise = global.Promise;
 // mongoose.set('debug', function(coll, method, query, doc){
